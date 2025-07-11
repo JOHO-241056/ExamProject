@@ -13,7 +13,7 @@ public abstract class Monster implements Creature {
     }
 
     public final boolean isAlive() {
-        return this.hp > 0;
+        return getHp() > 0;
     }
 
     public void showStatus() {

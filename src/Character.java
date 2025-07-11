@@ -11,11 +11,11 @@ public abstract class Character implements Creature {
     }
 
     public final boolean isAlive() {
-        return this.hp > 0;
+        return getHp() > 0;
     }
 
     public void showStatus() {
-        System.out.println(this.name + ": HP " + this.hp);
+        System.out.println(getName() + ": HP " + getHp());
     }
 
     public String getName() {
