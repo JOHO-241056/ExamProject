@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class GameMaster {
     public static void main(String[] args) {
         Hero h = new Hero("勇者", 100, "剣");
-        Wizard w = new Wizard("魔法使い", 60, 60);
+        Wizard w = new Wizard("魔法使い", 60, 20);
         Thief t = new Thief("盗賊", 70);
         ArrayList<Character> party =  new ArrayList<>();
         party.add(h);
